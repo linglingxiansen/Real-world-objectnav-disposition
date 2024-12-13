@@ -30,7 +30,7 @@ pip install -r requirements.txt
 For evaluating in the real-world environment:
 ```
 python Real-world-objectnav-disposition --split val_mini --eval 1 --auto_gpu_config 0 -n 1
---num_eval_episodes 2 --load pretrained_models/llm_model.pt --use_gtsem 0
+--num_eval_episodes 2  --use_gtsem 0
 --num_local_steps 10 --print_images 1 --sem_pred_prob_thr 0.8
 -efw 1280 -efh 720 -fw 320 -fh 180 --hfov 90 
 (change the arguments according to your camera parameters)
