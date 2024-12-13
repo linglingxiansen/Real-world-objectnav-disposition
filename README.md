@@ -1,6 +1,7 @@
 # Real-world-objectnav-disposition
 
 **Author:** Lingfeng Zhang
+
 **Hardware:** RealMan and Zed2 Camera
 ## Installation
 
