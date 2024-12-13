@@ -1,7 +1,7 @@
 # Real-world-objectnav-disposition
 
 **Author:** Lingfeng Zhang
-
+**Hardware:** RealMan and Zed2 Camera
 ## Installation
 
 The code has been tested only with Python 3.8.
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 
-### For demo: 
+## For demo: 
 For evaluating in the real-world environment:
 ```
 python Real-world-objectnav-disposition.py --split val_mini --eval 1 --auto_gpu_config 0 -n 1
